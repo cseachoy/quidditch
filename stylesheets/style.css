@@ -1,3 +1,36 @@
 /* Default CSS */
-
+html {background-color: black;
+}
+body#background {
+  background: url('../images/hospitalbike.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  color: red;
+}
+body#scroll {
+  background: url('../images/scroll.jpg') no-repeat 50% 50% fixed; 
+  background-size: contain;
+  background-position: top;
+  padding: 4%;
+  }
+ p {
+	
+	}
+main {text-align: center;
+	color: white;
+	font-size: 1.8vw;
+	}
+	div#home {
+		width: 30%;
+		height: 75%;
+		background-color:rgba(255,255,255,.85);
+		min-width: 240px;
+		padding: 20px;
+		margin: 20px;
+		}
+a {font-size: large;
+	color: red;
+		}
    
