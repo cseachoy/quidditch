@@ -1,4 +1,0 @@
-quidditch
-=========
-
-Quidditch project
