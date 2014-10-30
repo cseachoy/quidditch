@@ -1,35 +1,35 @@
 /* Default CSS */
 body#background {
-  background: url('../images/hospitalbike.jpg') no-repeat 50% 50% fixed; 
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  min-height: 100%;
+			background: url('../images/hospitalbike.jpg') no-repeat 50% 50% fixed; 
+			background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-webkit-background-size: cover;
+			min-height: 100%;
 }
-body#scroll {
-  background: url('../images/scroll.jpg') no-repeat 50% 50% fixed; 
-  background-size: contain;
-  background-position: top;
-  padding: 4%;
-  background-color: black;
-  }
- p {
-	
-	}
-main {text-align: center;
-	color: white;
-	font-size: 1.8vw;
-	}
-	div#home {
-		width: 30%;
-		height: 75%;
-		background-color:rgba(255,255,255,.85);
-		min-width: 240px;
-		padding: 20px;
-		margin: 20px;
-		}
-a {font-size: large;
-	color: red;
-		}
+body#scroll {background-color: black;}
+.wrap 		{   
+			position: relative;  /*This div makes the scroll image and section of content "in-line" elements. */
+			display: inline-block;
+			}
+img            	{padding: 0 10% 0 10%;} /* To centre scroll on page */
+.content 	{
+			position: absolute;
+			top: 130px;				/* To place content section in centre of scroll*/
+			left: 300px;
+			text-align: center;
+			}
+div#home 	{
+			width: 30%;
+			height: 75%;
+			background-color:rgba(255,255,255,.85);
+			min-width: 240px;
+			padding: 20px;
+			margin: 20px;
+			}
+a 			{
+			font-size: large;
+			color: red;
+			max-width: 100px;
+			}
    
