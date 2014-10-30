@@ -1,18 +1,18 @@
 /* Default CSS */
-html {
-}
 body#background {
   background: url('../images/hospitalbike.jpg') no-repeat 50% 50% fixed; 
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
+  min-height: 100%;
 }
 body#scroll {
   background: url('../images/scroll.jpg') no-repeat 50% 50% fixed; 
   background-size: contain;
   background-position: top;
   padding: 4%;
+  background-color: black;
   }
  p {
 	
