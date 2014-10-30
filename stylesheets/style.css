@@ -18,6 +18,7 @@ img            	{padding: 0 10% 0 10%;} /* To centre scroll on page */
 			top: 130px;				/* To place content section in centre of scroll*/
 			left: 300px;
 			text-align: center;
+			font-size: large; 
 			}
 div#home 	{
 			width: 30%;
