@@ -1,5 +1,5 @@
 /* Default CSS */
-html {background-color: black;
+html {
 }
 body#background {
   background: url('../images/hospitalbike.jpg') no-repeat 50% 50% fixed; 
@@ -7,7 +7,6 @@ body#background {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  color: red;
 }
 body#scroll {
   background: url('../images/scroll.jpg') no-repeat 50% 50% fixed; 
