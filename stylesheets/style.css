@@ -7,6 +7,28 @@ body#background {
 			-webkit-background-size: cover;
 			min-height: 100%;
 }
+@font-face {   
+    font-family: 'pharmount';    
+    src: url('https://dl.dropboxusercontent.com/u/38807507/pharmount.ttf'); 
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 9s 1.2s linear alternate both;
+    font-family: pharmount;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
 body#scroll {background-color: black;}
 .wrap 		{   
 			position: relative;  /*This div makes the scroll image and section of content "in-line" elements. */
