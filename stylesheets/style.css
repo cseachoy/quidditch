@@ -23,14 +23,15 @@ body#background {
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: dash 9s 1.2s linear alternate both;
+  stroke-width: 1;
+  -webkit-animation: dash 40s .2s linear alternate both;
     font-family: 'montezregular';
 }
 
 @-webkit-keyframes dash {
   from {
     stroke-dashoffset: 1000;
-    fill-opacity: 0;
+    fill-opacity: 1;
   }
   to {
     stroke-dashoffset: 0;
@@ -45,7 +46,7 @@ body#scroll {background-color: black;}
 img            	{padding: 0 10% 0 10%;} /* To centre scroll on page */
 .content 	{
 			position: absolute;
-			top: 130px;				/* To place content section in centre of scroll*/
+			top: 110px;				/* To place content section in centre of scroll*/
 			left: 300px;
 			text-align: center;
 			font-size: large; 
