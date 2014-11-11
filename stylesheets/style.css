@@ -7,16 +7,23 @@ body#background {
 			-webkit-background-size: cover;
 			min-height: 100%;
 }
-@font-face {   
-    font-family: 'pharmount';    
-    src: url('https://dl.dropboxusercontent.com/u/38807507/pharmount.ttf'); 
+@font-face {
+    font-family: 'montezregular';
+    src: url('Montez-Regular-webfont.eot');
+    src: url('Montez-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Montez-Regular-webfont.woff') format('woff'),
+         url('Montez-Regular-webfont.ttf') format('truetype'),
+         url('Montez-Regular-webfont.svg#montezregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: dash 9s 1.2s linear alternate both;
-    font-family: pharmount;
+    font-family: 'montezregular';
 }
 
 @-webkit-keyframes dash {
@@ -43,16 +50,18 @@ img            	{padding: 0 10% 0 10%;} /* To centre scroll on page */
 			font-size: large; 
 			}
 div#home 	{
-			width: 30%;
+			font-family: 'montezregular';
+			font-size: 1.5em;
+			width: 25%;
 			height: 75%;
-			background-color:rgba(255,255,255,.85);
+			background-color:rgba(255,255,255,.95);
 			min-width: 240px;
 			padding: 20px;
 			margin: 20px;
 			}
 a 			{
-			font-size: large;
+			font-size: 1.5em;
+			text-decoration: none;
 			color: red;
 			max-width: 100px;
 			}
-   
